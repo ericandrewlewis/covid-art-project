@@ -1,0 +1,37 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 3rem 0;
+}
+
+.site-header {
+  margin-bottom: 2rem;
+}
+
+.site-header img {
+  width: 100%;
+}
+
+.instructions {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.project-ideas li {
+  margin-bottom: 1.5rem;
+}
+
+/* Copy should not be wider than 70 characters on a screen for ease of reading. */
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .copy-container.copy-container {
+    max-width: 36rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .copy-container.copy-container {
+    max-width: 36rem;
+  }
+}
